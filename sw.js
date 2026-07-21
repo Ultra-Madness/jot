@@ -1,5 +1,5 @@
 /* Jot service worker — offline app shell */
-const CACHE = 'jot-v2';
+const CACHE = 'jot-v3';
 const SHELL = ['.', 'index.html', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
